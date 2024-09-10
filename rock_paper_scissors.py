@@ -8,7 +8,6 @@ class MainWindow(qtw.QWidget):
         self.setWindowTitle("Rock Paper Scissors")
         self.setLayout(qtw.QVBoxLayout())
         self.show()
-        user_choice = None
         
         # Create a label
         self.label = qtw.QLabel("Make your move")
